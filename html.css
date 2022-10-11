@@ -1,0 +1,94 @@
+﻿#container {
+    padding: 0px
+}
+
+#image {
+    height: 600px;
+    padding: 5px;
+    background-image: url("images/das.jpg")
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid red;
+    height: 50px
+}
+
+
+#ul {
+    display: flex;
+    list-style-type: none
+}
+
+#ul, a {
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 15px
+}
+
+#left {
+    height: 550px;
+    width: 790px
+}
+
+#right {
+    padding: 5px;
+    height: 550px;
+    width: 790px
+}
+
+footer {
+    border-top: 3px dashed black
+}
+
+section,footer {
+    display: flex;
+    padding: 15px
+}
+
+#banner,footer {
+    background-color: ghostwhite
+}
+
+h1,h2 {
+    font-size: 55px
+}
+
+p {
+    font-size: 20px;
+    font-family:Arial
+}
+
+#button {
+    color: white;
+    background-color: red;
+    font-family: Arial;
+    width: 150px;
+    font-size: 17px;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none
+}
+
+#button:hover {
+    background-color: darkred
+}
+
+
+
+h4 {
+    font-family: 'Segoe Script'
+}
+
+span {
+    font-size: 50px;
+    color: red;
+}
+
+ul, a:hover {
+    border-bottom: 3px solid red
+}
